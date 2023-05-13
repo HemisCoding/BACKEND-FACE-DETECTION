@@ -7,11 +7,11 @@ const knex = require('knex')
 const db = knex({
     client: 'pg',
     connection: {
-      host : 'dpg-chf8hv2k728trcpe7qog-a.frankfurt-postgres.render.com',
+      host : '127.0.0.1',
       port : 5432,
-      user : 'hem',
+      user : 'alinhemeci',
       password : '',
-      database : 'dbname_kzvk'
+      database : 'smart-brain-db'
     }
   });
 
